@@ -15,6 +15,7 @@
 		B7E4AC8E1D51D4EB0068028D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E4AC8C1D51D4EB0068028D /* LaunchScreen.storyboard */; };
 		B7E4AC991D51D4EB0068028D /* weidianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E4AC981D51D4EB0068028D /* weidianTests.m */; };
 		B7E4ACA41D51D4EB0068028D /* weidianUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E4ACA31D51D4EB0068028D /* weidianUITests.m */; };
+		F4F76E271D51D917004CEC6C /* people.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F76E261D51D917004CEC6C /* people.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B7E4AC9F1D51D4EB0068028D /* weidianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weidianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E4ACA31D51D4EB0068028D /* weidianUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weidianUITests.m; sourceTree = "<group>"; };
 		B7E4ACA51D51D4EB0068028D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F76E251D51D917004CEC6C /* people.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = people.h; path = "../../../Desktop/WDKKtest/WDKKtest/Service Page/people.h"; sourceTree = "<group>"; };
+		F4F76E261D51D917004CEC6C /* people.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = people.m; path = "../../../Desktop/WDKKtest/WDKKtest/Service Page/people.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B7E4AC821D51D4EB0068028D /* AppDelegate.m */,
 				B7E4AC841D51D4EB0068028D /* ViewController.h */,
 				B7E4AC851D51D4EB0068028D /* ViewController.m */,
+				F4F76E251D51D917004CEC6C /* people.h */,
+				F4F76E261D51D917004CEC6C /* people.m */,
 				B7E4AC871D51D4EB0068028D /* Main.storyboard */,
 				B7E4AC8A1D51D4EB0068028D /* Assets.xcassets */,
 				B7E4AC8C1D51D4EB0068028D /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F76E271D51D917004CEC6C /* people.m in Sources */,
 				B7E4AC861D51D4EB0068028D /* ViewController.m in Sources */,
 				B7E4AC831D51D4EB0068028D /* AppDelegate.m in Sources */,
 				B7E4AC801D51D4EB0068028D /* main.m in Sources */,
@@ -498,6 +504,7 @@
 				B7E4ACAA1D51D4EB0068028D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7E4ACAB1D51D4EB0068028D /* Build configuration list for PBXNativeTarget "weidianTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				B7E4ACAD1D51D4EB0068028D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7E4ACAE1D51D4EB0068028D /* Build configuration list for PBXNativeTarget "weidianUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				B7E4ACB01D51D4EB0068028D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
